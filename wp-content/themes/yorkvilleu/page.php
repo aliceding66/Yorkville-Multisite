@@ -1,0 +1,106 @@
+<?php  get_header(); ?>
+ <!-- BreadCrumbs menu --> 
+
+<?php breadcrumbs(); ?>
+
+                <!-- Page Content -->         
+ <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                      
+       
+       <div class="contentWithHeaderWrapper">
+        <?php if (has_post_thumbnail()){
+			$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+		?>     
+        <div class="topPageImage">
+       
+            <img id="ctl00_ctl00_mainContent_imgHeader_imgImage" src="<?php echo $url; ?>" alt="" style="border-width:0px;">  
+          
+            <div id="ctl00_ctl00_mainContent_HederImageDescription" class="headerImageText">
+	
+</div>
+        </div>
+         <?php } ?>
+        
+		<?php 
+			$post_slug=$post->post_name;
+			
+			if($post->post_parent) {
+				$parent = get_post($post->post_parent);
+			}
+			if ($parent && $parent->post_parent) {
+					$parentsecond = get_post($parent->post_parent);
+			} 
+			if ($parentsecond && $parentsecond->post_parent) {
+					$parentthird = get_post($parentsecond->post_parent);
+			}
+			
+			if($parentthird) {
+				$menuid = $parentthird;
+			}
+			else if($parentsecond && !$parentthird) {
+				$menuid = $parentsecond;
+			}
+			else if(!$parentsecond  && !$parentthird && $parent) {
+				$menuid = $parent;
+			}
+			else {
+				$menuid = $post;
+			}
+			
+			$slugtop = $menuid->post_name;
+			
+			if($parentthird) {
+				$slugtemp = $parentthird->post_name;
+			} 
+			else if(!$parentthird && $parentsecond) {
+				$slugtemp = $parentsecond->post_name;
+			} 
+			else if(!$parentthird && !$parentsecond && $parent) {
+				$slugtemp = $parent->post_name;
+			}
+			else {
+				$slugtemp = $slugtop;
+			}
+	
+
+			if ($slugtemp){
+				get_template_part( 'menu', $slugtemp );
+			}
+		?>
+         
+
+
+
+         <div class="secondColumn threeColumn">
+         <div id="ctl00_ctl00_mainContent_pageTitleInterior">
+	
+                <div class="title interior"> 
+                    <h1><?php the_title(); ?></h1>
+                    <span class="st_sharethis" displaytext="ShareThis"></span>
+                </div>   
+            
+</div> <?php the_content(); ?>
+                 
+
+            <a href="#" target="_top" class="toTop">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/backtotop.jpg" alt="Back to Top" title="Back to Top">
+            </a>
+
+        </div>       
+        </div>
+        
+       
+     <?php endwhile;?>
+    <?php endif;?>
+    
+    <?php get_template_part( 'right', 'sidebar' );?>
+         
+
+                
+                   <div style="clear: both;"></div>
+            </div>
+         
+        </div>
+       
+       
+<?php  get_footer();?>

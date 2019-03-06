@@ -1,0 +1,52 @@
+#YuAppBar {
+	height:80px;
+	max-height:80px;
+	min-height:80px;
+	background:white;
+	width: 100%! important; max-width: 100% !important; padding: 0px !important; 	margin: 0px !important;	: 70px;
+}
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+@media only screen and (min-width:0px) {
+	.responsive_desktop {display:none;}
+	.responsive_mobile {display:inline;}
+	#yorkville_brand_logo{ display:none; width:120px; position:absolute; left:50%;  -webkit-transform:translateY(100%) translateX(-50%);}
+	
+	.askyu_seach_bar {float:left; margin-top:20px; padding:10px; padding: 10px; border: 1px solid #eeeeee;}
+}
+
+@media only screen and (min-width:320px) {
+	.responsive_desktop {display:none;}
+	.responsive_mobile {display:inline;}
+	#yorkville_brand_logo{ display:inline; width:120px; position:absolute; left:52%;  -webkit-transform:translateY(100%) translateX(-50%);}
+}
+@media only screen and (min-width:480px) {
+	.responsive_desktop {display:none;}
+	.responsive_mobile {display:inline;}
+	#yorkville_brand_logo{ display:inline; width:180px; position:absolute; left:38%;  -webkit-transform:translateY(50%) translateX(-50%);}
+}
+@media only screen and (min-width:768px) {
+	.responsive_desktop {display:inline;}
+	.responsive_mobile {display:none;}
+	#yorkville_brand_logo{ display:inline; }
+}
+@media only screen and (min-width:1024px) {
+	.responsive_desktop {display:inline;}
+	.responsive_mobile {display:none;}
+	#yorkville_brand_logo{ display:inline; }
+}
+@media only screen and (min-width:1140px) {
+	.responsive_desktop {display:inline;}
+	.responsive_mobile {display:none;}
+	#yorkville_brand_logo{ display:inline;  width:300px; height:70px; position:absolute; left:50%;  -webkit-transform:translateY(00%) translateX(-50%);}
+}
+@media only screen and (min-width:1280px) {
+	.responsive_desktop {display:inline;}
+	.responsive_mobile {display:none;}
+	#yorkville_brand_logo{ display:inline }
+}
+
+

@@ -1,0 +1,48 @@
+/* sinhala */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abhaya Libre Regular'), local('AbhayaLibre-Regular'), url(https://fonts.gstatic.com/s/abhayalibre/v3/zTLc5Jxv6yvb1nHyqBasV93yxI4v6WVA0wCzYSsDLCs.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D82-0DF4, U+200B-200D, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abhaya Libre Regular'), local('AbhayaLibre-Regular'), url(https://fonts.gstatic.com/s/abhayalibre/v3/zTLc5Jxv6yvb1nHyqBasVz0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abhaya Libre Regular'), local('AbhayaLibre-Regular'), url(https://fonts.gstatic.com/s/abhayalibre/v3/zTLc5Jxv6yvb1nHyqBasV-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Abhaya Libre Bold'), local('AbhayaLibre-Bold'), url(https://fonts.gstatic.com/s/abhayalibre/v3/wBjdF6T34NCo7wQYXgzrc8FK6HZ27GpBtRuymGbZxLM.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D82-0DF4, U+200B-200D, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Abhaya Libre Bold'), local('AbhayaLibre-Bold'), url(https://fonts.gstatic.com/s/abhayalibre/v3/wBjdF6T34NCo7wQYXgzrc-IaMZP5eRGvEWe_CNIU_oY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Abhaya Libre Bold'), local('AbhayaLibre-Bold'), url(https://fonts.gstatic.com/s/abhayalibre/v3/wBjdF6T34NCo7wQYXgzrc3NuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}

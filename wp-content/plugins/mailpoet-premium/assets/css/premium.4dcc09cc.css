@@ -1,0 +1,20 @@
+.mailpoet_stat_grey {
+  color: #707070;
+}
+.mailpoet_stat_big {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: normal;
+}
+.mailpoet_stat_spaced {
+  margin-bottom: 1rem;
+}
+.mailpoet_stat_triple-spaced {
+  margin-bottom: 3rem;
+}
+.form-field-row-filters div {
+  margin-bottom: 10px;
+}
+.button.stats-create-segment {
+  margin-top: 3px;
+}

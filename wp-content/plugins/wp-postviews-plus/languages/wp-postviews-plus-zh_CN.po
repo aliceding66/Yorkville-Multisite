@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-PostViews Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-03 15:07+0800\n"
+"PO-Revision-Date: 2017-12-03 15:08+0800\n"
+"Last-Translator: Richer Yang <fantasyworldidvtw@gmail.com>\n"
+"Language-Team: <suvizhang@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: gb2312\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../class.wp-pvp.admin.php:28
+msgid "Settings"
+msgstr "设定"
+
+#: ../class.wp-pvp.admin.php:35
+msgid "PostViews+"
+msgstr "PostViews+"
+
+#: ../class.wp-pvp.admin.php:84
+msgid "Updated Options Success"
+msgstr "成功的更新设定"
+
+#: ../class.wp-pvp.admin.php:94
+msgid "Reset Optionsto Default Success"
+msgstr "成功的恢复到预设值"
+
+#: ../class.wp-pvp.admin.php:129
+msgid "Post Views Plus Options"
+msgstr "Post Views Plus 设定"
+
+#: ../class.wp-pvp.admin.php:130
+msgid "Basic Options"
+msgstr "基本设定"
+
+#: ../class.wp-pvp.admin.php:133
+msgid "Count Views From:"
+msgstr "计数器动作："
+
+#: ../class.wp-pvp.admin.php:136
+msgid "Everyone"
+msgstr "所有人"
+
+#: ../class.wp-pvp.admin.php:137
+msgid "Guests Only"
+msgstr "只有访客"
+
+#: ../class.wp-pvp.admin.php:138
+msgid "Registered Users Only"
+msgstr "只有注册的使用者"
+
+#: ../class.wp-pvp.admin.php:143
+msgid "Reflash check:"
+msgstr "放灌水检查："
+
+#: ../class.wp-pvp.admin.php:146
+msgid "Close"
+msgstr "关闭"
+
+#: ../class.wp-pvp.admin.php:147
+msgid "Open"
+msgstr "开启"
+
+#: ../class.wp-pvp.admin.php:149
+msgid "Check is based on IP."
+msgstr "基于IP检查"
+
+#: ../class.wp-pvp.admin.php:150
+msgid "Reflash timeout:"
+msgstr "灌水检查时间："
+
+#: ../class.wp-pvp.admin.php:151
+msgid "second."
+msgstr "秒。"
+
+#: ../class.wp-pvp.admin.php:155 ../class.wp-pvp.widget.php:191
+msgid "Views Template:"
+msgstr "浏览器显示样板："
+
+#: ../class.wp-pvp.admin.php:157
+msgid "All views:"
+msgstr "所有浏览数："
+
+#: ../class.wp-pvp.admin.php:159 ../class.wp-pvp.admin.php:162
+#: ../class.wp-pvp.admin.php:165 ../class.wp-pvp.admin.php:172
+#: ../class.wp-pvp.widget.php:193
+msgid "Allowed Variables:"
+msgstr "允许的变量"
+
+#: ../class.wp-pvp.admin.php:160
+msgid "Only user views:"
+msgstr "只有使用者浏览数："
+
+#: ../class.wp-pvp.admin.php:163
+msgid "Only bot views:"
+msgstr "只有机器人浏览数："
+
+#: ../class.wp-pvp.admin.php:169
+msgid "Most Viewed Template:"
+msgstr "最多浏览的样板："
+
+#: ../class.wp-pvp.admin.php:173 ../class.wp-pvp.widget.php:201
+msgid "Size of post thumbnail: "
+msgstr ""
+
+#: ../class.wp-pvp.admin.php:173 ../class.wp-pvp.widget.php:202
+msgid "Width: "
+msgstr ""
+
+#: ../class.wp-pvp.admin.php:174 ../class.wp-pvp.widget.php:204
+msgid "Height: "
+msgstr ""
+
+#: ../class.wp-pvp.admin.php:178
+msgid "BOT User_agent:"
+msgstr "机器人的 User_agent"
+
+#: ../class.wp-pvp.admin.php:181
+msgid "For each BOT user_agent one line."
+msgstr "每一个 BOT User_agent 一行"
+
+#: ../class.wp-pvp.admin.php:186
+msgid "Display Options"
+msgstr "显示设定"
+
+#: ../class.wp-pvp.admin.php:189
+msgid "Home Page:"
+msgstr "首页："
+
+#: ../class.wp-pvp.admin.php:192 ../class.wp-pvp.admin.php:202
+#: ../class.wp-pvp.admin.php:212 ../class.wp-pvp.admin.php:222
+#: ../class.wp-pvp.admin.php:232 ../class.wp-pvp.admin.php:242
+msgid "Display to everyone"
+msgstr "显示给所有人"
+
+#: ../class.wp-pvp.admin.php:193 ../class.wp-pvp.admin.php:203
+#: ../class.wp-pvp.admin.php:213 ../class.wp-pvp.admin.php:223
+#: ../class.wp-pvp.admin.php:233 ../class.wp-pvp.admin.php:243
+msgid "Display to registered users only"
+msgstr "只显示给注册者"
+
+#: ../class.wp-pvp.admin.php:194
+msgid "Don't display on home page"
+msgstr "在首页不显示"
+
+#: ../class.wp-pvp.admin.php:199
+msgid "Singe Posts:"
+msgstr "单篇文章："
+
+#: ../class.wp-pvp.admin.php:204
+msgid "Don't display on single posts"
+msgstr "不要再单篇文章页面显示"
+
+#: ../class.wp-pvp.admin.php:209
+msgid "Pages:"
+msgstr "独立分页："
+
+#: ../class.wp-pvp.admin.php:214
+msgid "Don't display on pages"
+msgstr "不要在独立页面显示"
+
+#: ../class.wp-pvp.admin.php:219
+msgid "Archive Pages:"
+msgstr "归档页面："
+
+#: ../class.wp-pvp.admin.php:224
+msgid "Don't display on archive pages"
+msgstr "不要在归档页面显示"
+
+#: ../class.wp-pvp.admin.php:229
+msgid "Search Pages:"
+msgstr "搜寻页面"
+
+#: ../class.wp-pvp.admin.php:234
+msgid "Don't display on search pages"
+msgstr "不要在搜寻页面显示"
+
+#: ../class.wp-pvp.admin.php:239
+msgid "Other Pages:"
+msgstr "其他页面："
+
+#: ../class.wp-pvp.admin.php:244
+msgid "Don't display on other pages"
+msgstr "不要在其他页面显示"
+
+#: ../class.wp-pvp.admin.php:249
+msgid ""
+"These options specify where the view counts should be displayed and to whom."
+"<br>Note that the theme files must contain a call to <code>the_views()</"
+"code> in order for any view count to be displayed."
+msgstr ""
+"这个选项让你可以针对指定版面决定是否显示浏览数<br />注意：主题样板中必须调用 "
+"<code>the_views()</code> 系列函数来显示浏览次数。"
+
+#: ../class.wp-pvp.admin.php:251
+msgid "Save Changes"
+msgstr "保存变更"
+
+#: ../class.wp-pvp.admin.php:252
+msgid "Reset to Default"
+msgstr "重置预设值"
+
+#: ../class.wp-pvp.admin.php:258
+msgid "Uninstall WP-PostViews Plus"
+msgstr "停用 WP-PostViews Plus"
+
+#: ../class.wp-pvp.admin.php:259
+msgid ""
+"Deactivating WP-PostViews Plus plugin does not remove any data that may have "
+"been created, such as the views data. To completely remove this plugin, you "
+"can uninstall it here."
+msgstr ""
+"停用 WP-PostViews Plus 不会溢出任何由其建立的资料，例如浏览数。为了完整的移"
+"除，您可以从这里移除。"
+
+#: ../class.wp-pvp.admin.php:261
+msgid "WARNING:"
+msgstr "注意："
+
+#: ../class.wp-pvp.admin.php:262
+msgid ""
+"Once uninstalled, this cannot be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+"一旦删除之后，将无法复原。如果您想要保留资料请先行将 WordPress 的资料库备份"
+
+#: ../class.wp-pvp.admin.php:264 ../class.wp-pvp.admin.php:265
+#, php-format
+msgid "The database table <strong>%s</strong> will be DELETED."
+msgstr "资料表 <strong>%s</strong> 将被删除"
+
+#: ../class.wp-pvp.admin.php:267
+msgid "The following WordPress Options/PostMetas will be DELETED:"
+msgstr "以下的 WordPress 设定与文章的自订栏位将被删除："
+
+#: ../class.wp-pvp.admin.php:268
+msgid "WordPress Options"
+msgstr "WordPress 设定值"
+
+#: ../class.wp-pvp.admin.php:274
+msgid "WordPress PostMetas"
+msgstr "文章自订栏位"
+
+#: ../class.wp-pvp.admin.php:282
+msgid "Yes"
+msgstr "是的"
+
+#: ../class.wp-pvp.admin.php:283
+msgid "UNINSTALL WP-PostViews Plus"
+msgstr "删除 WP-PostViews Plus"
+
+#: ../class.wp-pvp.admin.php:283
+msgid ""
+"You Are About To Uninstall WP-PostViews Plus From WordPress.\\nThis Action "
+"Is Not Reversible.\\n\\n Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"您将从 WordPress 删除 WP-PostViews Plus \\n此动作是不可逆转的。\\n\\n点选 [取"
+"消] 来终止删除， [确定]执行删除"
+
+#: ../class.wp-pvp.admin.php:287
+msgid "Thank"
+msgstr "感谢"
+
+#: ../class.wp-pvp.admin.php:288
+msgid "Translation contributors"
+msgstr "翻译贡献者"
+
+#: ../class.wp-pvp.widget.php:24
+msgid "WP-PostViews plus views statistics"
+msgstr "WP-PostViews plus 的浏览排行"
+
+#: ../class.wp-pvp.widget.php:25
+msgid "Views Stats"
+msgstr "浏览数排行"
+
+#: ../class.wp-pvp.widget.php:121
+msgid "Views"
+msgstr "浏览数"
+
+#: ../class.wp-pvp.widget.php:150
+msgid "Title:"
+msgstr "标题："
+
+#: ../class.wp-pvp.widget.php:154
+msgid "Statistics Type:"
+msgstr "排行方式："
+
+#: ../class.wp-pvp.widget.php:156
+msgid "Most Viewed"
+msgstr "最多浏览人数"
+
+#: ../class.wp-pvp.widget.php:157
+msgid "Most Viewed By Category"
+msgstr "以分类最多人浏览"
+
+#: ../class.wp-pvp.widget.php:158
+msgid "Most Viewed By Tag"
+msgstr "依标签最多人浏览"
+
+#: ../class.wp-pvp.widget.php:162
+msgid "Include Views From:"
+msgstr "包含的页面形式："
+
+#: ../class.wp-pvp.widget.php:164
+msgid "Posts &amp; Pages"
+msgstr "文章 &amp; 分页"
+
+#: ../class.wp-pvp.widget.php:165
+msgid "Posts Only"
+msgstr "只有文章"
+
+#: ../class.wp-pvp.widget.php:166
+msgid "Pages Only"
+msgstr "只有分页"
+
+#: ../class.wp-pvp.widget.php:170
+msgid "Category IDs:"
+msgstr "分类 ID："
+
+#: ../class.wp-pvp.widget.php:183 ../class.wp-pvp.widget.php:188
+msgid "Seperate mutiple categories with commas."
+msgstr "多个分类以 ',' 区分"
+
+#: ../class.wp-pvp.widget.php:186
+msgid "Tag IDs:"
+msgstr "标签 ID："
+
+#: ../class.wp-pvp.widget.php:196
+msgid "No. Of Records To Show:"
+msgstr "显示的文章数量："
+
+#: ../class.wp-pvp.widget.php:198
+msgid "Maximum Post Title Length (Characters):"
+msgstr "最多标题字数："
+
+#: ../class.wp-pvp.widget.php:200
+msgid "<strong>0</strong> to disable."
+msgstr "<strong>0</strong> 不限制"
+
+#: ../class.wp-pvp.widget.php:200
+msgid " Chinese characters to calculate the two words"
+msgstr "中文字计算为2字数"
+
+#: ../class.wp-pvp.widget.php:208
+msgid "With BOT Views:"
+msgstr "包含机器人的浏览："
+
+#: ../class.wp-pvp.widget.php:210
+msgid "With BOT"
+msgstr "包含机器人"
+
+#: ../class.wp-pvp.widget.php:211
+msgid "Without BOT"
+msgstr "不包含机器人"
+
+#: ../wp-postviews-plus.php:187
+msgid "There is no excerpt because this is a protected post."
+msgstr "文章首密码保护，无法产生摘要。"
+
+#: ../wp-postviews-plus.php:271
+msgid "N/A"
+msgstr "沒有文章"

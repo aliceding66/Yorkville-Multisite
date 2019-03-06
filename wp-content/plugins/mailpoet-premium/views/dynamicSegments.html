@@ -1,0 +1,17 @@
+
+
+<% block content %>
+
+  <div id="dynamic_segments_container"></div>
+
+
+  <script type="text/javascript">
+    var mailpoet_listing_per_page = <%= items_per_page %>;
+    var wordpress_editable_roles_list = <%= json_encode(wordpress_editable_roles_list)  %>;
+    var mailpoet_newsletters_list = <%= json_encode(newsletters_list)  %>;
+    var mailpoet_product_categories = <%= json_encode(product_categories)  %>;
+    var mailpoet_products = <%= json_encode(products)  %>;
+    var is_woocommerce_active = <%= json_encode(is_woocommerce_active)  %>;
+  </script>
+
+<% endblock %>

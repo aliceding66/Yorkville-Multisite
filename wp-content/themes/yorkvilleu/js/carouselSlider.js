@@ -1,0 +1,11 @@
+$(function(){var firstItem=$("li.carouselItem").first().clone();var lastItem=$("li.carouselItem").last().clone();$("li.carouselItem").last().after(firstItem);$("li.carouselItem").first().before(lastItem);carouselItems=$("li.carouselItem");carouselItemPosition=[];totalItems=$("li.carouselItem").length;carouselItems.each(function(index){$(this).css('left',(index-1)*976+'px');$(this).attr('id',index);if(index==1)
+$(this).addClass('current');carouselItemPosition[index]=((index-1)*976);});windowSlideTime=10000;windowSlide=window.setInterval('slideRight()',windowSlideTime);});function slideRight(){var currentItem=parseInt($("li.carouselItem.current").attr('id'));if(currentItem==totalItems-1){carouselItems.each(function(index){carouselItemPosition[index]=(index-1)*976;$(this).css('left',carouselItemPosition[index])})
+$(this).removeClass('current');$("li.carouselItem:nth-child(3)").addClass('current');}
+carouselItems.each(function(index){carouselItemPosition[index]=carouselItemPosition[index]-976;if(parseInt($(this).attr('id'))==currentItem){$(this).removeClass('current');$(this).next().addClass('current');}
+$(this).stop().animate({left:carouselItemPosition[index]},1000,'swing');})
+window.clearInterval(windowSlide);windowSlide=window.setInterval('slideRight()',windowSlideTime);}
+function slideLeft(){var currentItem=parseInt($("li.carouselItem.current").attr('id'));if(currentItem==0){carouselItems.each(function(index){carouselItemPosition[index]=-((totalItems*976)-(976*(index+2)));$(this).css('left',carouselItemPosition[index])})
+$(this).removeClass('current');$("li.carouselItem:nth-child("+(totalItems-2)+")").addClass('current');}
+carouselItems.each(function(index){carouselItemPosition[index]=carouselItemPosition[index]+976;if(parseInt($(this).attr('id'))==currentItem){$(this).removeClass('current');$(this).prev().addClass('current');}
+$(this).stop().animate({left:carouselItemPosition[index]},1000,'swing');})
+window.clearInterval(windowSlide);windowSlide=window.setInterval('slideRight()',windowSlideTime);}

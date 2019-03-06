@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    RESPONSIVE
+	REMEMBER: Mobile FIRST!
+\*------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, html * {
+  font-family: Roboto;
+}
+
+
+
+#reviewfrequency-0{
+	display:none;
+}
+
+
+html,body{font-family: 'Roboto' !important;}
+
+h1,h2,h3,h4,h5,h6,p,ul,li {
+ font-size: 100%;
+ font-family: 'Roboto' !important;
+}
+.vc_row {margin:0px !important; padding:0px !important; }
+
+.myyu_featured_article {padding:4px !important; margin:0px !important; height:300px;}
+.myyu_featured_article a {text-decoration:none;}
+.myyu_featured_article .feature_image {width:100%; height:300px; display:block; position:relative;}
+.myyu_featured_article .feature_type {margin-left:4px;}
+.myyu_featured_article .feature_title {position:absolute; width:100%; display:block; bottom:0px; color:white; background:rgba(0,0,0,0.3); padding:4px; font-size:20px;}
+
+@media only screen and (min-width:0px) {
+	
+	.yu_logo{ height:25px; margin-top:10px;}
+	.header-user_right .button{ padding:0.45em 1em; font-weight:initial; }
+	
+	.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {
+		margin-bottom: 0px !important;
+	}
+	
+}
+
+
+@media only screen and (min-width:320px) {
+	
+	
+}
+
+
+@media only screen and (min-width:480px) {
+	
+}
+
+
+@media only screen and (min-width:768px) {
+	
+	.yu_logo{ height:auto; margin-top:14px;}
+	.header-user_right .button{ padding:0.85em 1em; font-weight:bold; }
+	
+}
+
+
+@media only screen and (min-width:1024px) {
+	
+}
+
+
+@media only screen and (min-width:1140px) {
+	
+}
+
+
+@media only screen and (min-width:1280px) {
+	
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi) {
+
+
+}

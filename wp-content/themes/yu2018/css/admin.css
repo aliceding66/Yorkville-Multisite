@@ -1,0 +1,24 @@
+.user-first-name-wrap {
+display:none;
+}
+.user-last-name-wrap {
+display:none;
+}
+
+#brand-add-toggle {
+	display:none;
+}
+
+#jurisdiction-add-toggle {
+	display:none;
+}
+
+#delivery-add-toggle {
+	display:none;
+}
+#baseprogram-add-toggle {
+	display:none;
+}
+#reviewfrequency-add-toggle {
+	display:none;
+}

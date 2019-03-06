@@ -1,0 +1,242 @@
+/*------------------------------------*\
+    YORKVILLE BUTTONS
+	YU Blue: #0061ae
+	YU highlight: #3d89c7
+	YU Gold: #efb310
+\*------------------------------------*/
+
+body,html,h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+}
+p,a{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+	REMEMBER: Mobile FIRST!
+\*------------------------------------*/
+@media only screen and (min-width:0px) {
+	
+	/* GLOBAL STYLE */
+	
+	
+	/* WHITE */
+	#YuAppBar {
+		background-image:url(/wp-content/themes/yu2018/img/wallpaper.jpg);
+		background-repeat:repeat;
+		color:#444444;
+		height:80px;
+	}
+	
+	/* YU BUTTONS */
+	
+	/* YU CTA BUTTONS */
+	.yu-btn-apply h1{
+	}
+	.yu-btn-large h2{
+	}
+	.yu-btn-small h3{
+	}
+	
+	
+	/* YU BUTTONS */
+	.yu-btn{
+		position:relative;
+		margin:10px 10px 10px 0px;
+		background:#0061ae;
+	}
+
+	.yu-btn-inverted{
+		background:#3d89c7;
+	}
+	.yu-btn h1,h2,h3,h4,h5,h6{
+		margin:0px !important;
+		padding:0px  !important;
+		color:black;
+	}
+
+	.yu-btn-square:before{
+		content: "";
+		display: block;
+		padding-top: 100%; 	/* initial ratio of 1:1*/
+	}
+	.yu-btn-large:before{
+		content: "";
+		display: block;
+		padding-top: 50%; 	/* initial ratio of 1:1*/
+	}
+	.yu-btn-small:before{
+		content: "";
+		display: block;
+		padding-top: 25%; 	/* initial ratio of 1:1*/
+	}
+	.yu-btn .content{
+		position:  absolute;
+		top: 0px;
+		left: 25px;
+		bottom: 0px;
+		right: 0px;
+		color: white;
+		text-transform:uppercase;
+		display: table-cell;
+		vertical-align: middle;
+		
+		top: 50%;
+		transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+	.yu-btn .highlight{
+		position:absolute;
+		background:#3d89c7;
+		width:20px;
+		height:80%;
+		
+		top: 50%;
+		transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+	.yu-btn-inverted .highlight{
+		background:white;
+	}
+
+	.yu-btn:hover {
+		cursor:pointer;
+	}
+	.yu-btn:hover .highlight{
+		background:#efb310;
+	}
+
+	.yu-btn-small .content h3{
+		color:white;
+	}
+
+	/*------------------------------------*\
+		YORKVILLE ROWS
+		YU Blue: #0061ae
+		YU highlight: #3d89c7
+		YU Gold: #efb310
+	\*------------------------------------*/
+	.yu-row-white, .yu-row-blue {
+	}
+
+	/* BLUE */
+	.yu-row-blue {
+		background:#0061ae url(/wp-content/themes/yu2018/img/wallpaper-blue.jpg);
+		background-size:cover;
+		color:white;
+	}	
+	.yu-row-blue h2{
+		text-transform:uppercase;
+	}
+	.yu-row-blue h3{
+		text-transform:uppercase;
+	}
+	.yu-row-blue p{
+		margin-bottom:20px;
+	}
+	
+
+	/* WHITE */
+	.yu-row-white {
+		background:white;
+		background-image:url(/wp-content/themes/yu2018/img/wallpaper.jpg);
+		background-repeat:repeat;
+		color:#444444;
+	}
+	.yu-row-white h2{
+		text-transform:uppercase;
+		color:#0061ae;
+	}
+	.yu-row-white h3{
+		text-transform:uppercase;
+		color:#0061ae;
+	}
+	.yu-row-white h4{
+		text-transform:uppercase;
+		color:#0061ae;
+	}
+	.yu-row-white p{
+		margin-bottom:20px;
+	}
+	
+		
+	.yu-btn h3{
+	}
+
+
+	
+	#breadcrumbs{
+		list-style:none;
+		margin:10px 0;
+		overflow:hidden;
+		background:#0061ae;
+		width:100%;
+		position:relative;
+		z-index:10;
+		margin:0px;
+		padding-left:20px;
+		color:white;
+	}
+	#breadcrumbs a{
+		color:white;
+	}
+	#breadcrumbs p{
+		margin:0px;
+	}
+	  
+	#breadcrumbs li{
+		display:inline-block;
+		vertical-align:middle;
+	}
+	  
+	#breadcrumbs .separator{
+		font-size:18px;
+		font-weight:100;
+		color:#ccc;
+		margin:0px 5px;
+	}
+	
+	
+}
+
+@media only screen and (min-width:320px) {
+	
+	
+}
+@media only screen and (min-width:480px) {
+	
+
+}
+@media only screen and (min-width:768px) {
+	
+	
+	/* YU BUTTONS */
+	.yu-btn-apply h1{
+	}
+	.yu-btn-large h2{
+	}
+	
+}
+@media only screen and (min-width:1024px) {
+	
+	
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+
+}

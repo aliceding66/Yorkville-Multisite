@@ -1,0 +1,560 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://support.mailpoet.com/\n"
+"POT-Creation-Date: 2018-03-20 13:53:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MailPoet i18n "
+"(https://www.transifex.com/organization/wysija)\n"
+"Language-Team: MailPoet i18n "
+"<https://www.transifex.com/organization/wysija>\n"
+"X-Generator: grunt-wp-i18n 0.5.2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: lib/API/JSON/v1/DynamicSegments.php:59
+#: lib/API/JSON/v1/DynamicSegments.php:115
+#: lib/API/JSON/v1/DynamicSegments.php:131
+#: lib/API/JSON/v1/DynamicSegments.php:144
+msgid "This segment does not exist."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:86
+msgid "Segment type is missing."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:88
+msgid "Segment type is unknown."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:90
+msgid "Please select user role."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:92
+msgid "Please select email action."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:94
+msgid "Please select an email."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:96
+msgid "Please select category."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:98
+msgid "Please select product."
+msgstr ""
+
+#: lib/API/JSON/v1/DynamicSegments.php:100
+msgid "An error occurred while saving data."
+msgstr ""
+
+#: lib/API/JSON/v1/Stats.php:26 lib/API/JSON/v1/Stats.php:62
+msgid "This newsletter does not exist."
+msgstr ""
+
+#: lib/API/JSON/v1/Stats.php:38 lib/API/JSON/v1/Stats.php:71
+msgid "This newsletter is not sent yet."
+msgstr ""
+
+#: lib/Config/Hooks.php:68
+msgid ""
+"[link1]Register[/link1] your copy of the MailPoet Premium plugin to receive "
+"access to automatic upgrades and support. Need a license key? "
+"[link2]Purchase one now.[/link2]"
+msgstr ""
+
+#: lib/Config/Initializer.php:142
+msgid "Unsubscribe link"
+msgstr ""
+
+#: lib/Config/Initializer.php:143
+msgid "Manage subscription link"
+msgstr ""
+
+#: lib/Config/Initializer.php:144
+msgid "View in browser link"
+msgstr ""
+
+#: lib/Config/Menu.php:32 lib/Config/Menu.php:33
+msgid "Segments"
+msgstr ""
+
+#: lib/Config/Renderer.php:102
+msgid ""
+"Failed to render template \"%s\". Please ensure the template cache folder "
+"\"%s\" exists and has write permissions. Terminated with error: \"%s\""
+msgstr ""
+
+#: lib/Models/DynamicSegment.php:66
+msgid "All"
+msgstr ""
+
+#: lib/Models/DynamicSegment.php:71 views/dynamicSegmentsTranslations.html:50
+msgid "Trash"
+msgstr ""
+
+#: lib/Newsletter/Stats/SubscriberEngagement.php:230
+msgid "Filter by link clicked"
+msgstr ""
+
+#: mailpoet-premium.php:53
+msgid ""
+"MailPoet Premium plugin requires PHP version 5.3.3 or newer. Please read "
+"our [link]instructions[/link] on how to resolve this issue."
+msgstr ""
+
+#: mailpoet-premium.php:69
+msgid ""
+"MailPoet Premium cannot start because it is missing core files. Please "
+"reinstall the plugin."
+msgstr ""
+
+#: mailpoet_initializer.php:64
+msgid ""
+"You need to have MailPoet version %s or higher activated before using this "
+"version of MailPoet Premium."
+msgstr ""
+
+#: mailpoet_initializer.php:75
+msgid ""
+"You have an older version of the Premium plugin. The features have been "
+"disabled in order not to break MailPoet. Please update it in the Plugins "
+"page now."
+msgstr ""
+
+#: mailpoet_initializer.php:77
+msgid ""
+"Your MailPoet Premium plugin is incompatible with the free MailPoet plugin. "
+"[link1]Register[/link1] your key or [link2]purchase one now[/link2] to "
+"update the Premium to the latest version."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:3
+msgid "Segments (beta)"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:4
+msgid "Segment (beta)"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:5
+msgid "Segment"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:6
+msgid "Add New"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:7
+#: views/newsletters/campaign_stats.html:8
+msgid "Back"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:8
+#: views/dynamicSegmentsTranslations.html:17
+msgid "Name"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:9
+msgid "Description"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:10
+msgid "This text box is for your own use and is never shown to your subscribers."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:11
+msgid "Segment successfully updated!"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:12
+msgid "Segment successfully added!"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:13
+msgid "Save"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:14
+msgid "Type"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:15
+msgid "WordPress user roles"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:16
+msgid "Email"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:18
+msgid "Number of subscribers"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:19
+msgid "Modified on"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:20
+msgid "Loading data…"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:21
+msgid "No segments found"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:22
+msgid "1 item"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:23
+msgid "%$1d items"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:24
+msgid "Previous page"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:25
+msgid "First page"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:26
+msgid "Next page"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:27
+msgid "Last page"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:28
+msgid "Current page"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:30
+msgid "Edit"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:31
+msgid "View Subscribers"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:32
+msgid "Not sent yet"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:33
+msgid "Select link"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:34
+msgid "Select email"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:35
+msgid "Select action"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:36
+msgid "Select user role"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:41
+msgid "Search"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:43
+msgid ""
+"segments allow you to group your subscribers by other criteria, such as "
+"events and actions."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:44
+msgid "Read more."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:46
+msgid "1 segment was moved to the trash."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:47
+msgid "%$1d segments were moved to the trash."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:48
+msgid "1 segment has been restored from the Trash."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:49
+msgid "%$1d segments have been restored from the Trash."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:51
+msgid "Move to trash"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:52
+msgid "Empty Trash"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:53
+msgid "Restore"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:54
+msgid "Delete permanently"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:55
+msgid "1 segment was permanently deleted."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:56
+msgid "%$1d segments were permanently deleted."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:57
+msgid "%d segments were permanently deleted."
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:58
+msgid "Customers who have purchased in this category…"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:59
+msgid "Customers who have purchased this product…"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:60
+msgid "Search category"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:61
+msgid "Search products"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:6
+msgid "Stats"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:7
+msgid "Loading..."
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:9
+msgid "Preview in browser"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:10
+msgid "Date"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:11
+msgid "From"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:12
+msgid "To"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:13
+msgid "Reply-to"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:14
+msgid "Sent to"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:18
+msgid "Read more on stats."
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:19
+msgid "Google Analytics campaign name"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:20
+msgid "Clicked Links"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:21
+msgid "No clicked links found"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:22
+msgid "Link"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:23
+msgid "Unique clicks"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:24
+msgid "Subscriber Engagement"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:25
+msgid "Loading data..."
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:26
+msgid "No engagement data found"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:27
+msgid "Subscriber"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:28
+msgid "Status"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:29
+msgid "Date and time"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:35
+msgid "Saving..."
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:36
+msgid "Segment \"%s\" created. [link]Create and send an email to it.[/link]"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:37
+msgid "Segment already exists."
+msgstr ""
+
+#: views/newsletters/ga_tracking.html:2
+msgid "Google Analytics Campaign"
+msgstr ""
+
+#: views/newsletters/ga_tracking.html:3
+msgid "For example, \"Spring email\". [link]Read the guide.[/link]"
+msgstr ""
+
+#: lib/Config/Menu.php:45
+msgctxt "segments per page (screen options)"
+msgid "Number of segments per page"
+msgstr ""
+
+#: lib/Newsletter/Stats/SubscriberEngagement.php:260
+msgctxt "Subscriber engagement filter - filter those who clicked on a newsletter link"
+msgid "Clicked"
+msgstr ""
+
+#: lib/Newsletter/Stats/SubscriberEngagement.php:265
+msgctxt "Subscriber engagement filter - filter those who opened a newsletter"
+msgid "Opened"
+msgstr ""
+
+#: lib/Newsletter/Stats/SubscriberEngagement.php:270
+msgctxt ""
+"Subscriber engagement filter - filter those who unsubscribed from a "
+"newsletter"
+msgid "Unsubscribed"
+msgstr ""
+
+#: lib/Newsletter/Stats/SubscriberEngagement.php:279
+msgctxt ""
+"Subscriber engagement filter - filter those who performed any action (e.g., "
+"clicked, opened, unsubscribed)"
+msgid "All"
+msgstr ""
+
+#: lib/Newsletter/Stats/SubscriberEngagement.php:291
+msgctxt "Subscriber engagement filter - filter those who did not open a newsletter"
+msgid "Unopened"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:29
+msgctxt "Page X of Y"
+msgid "of"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:37
+msgctxt "Dynamic segment creation: when newsletter was opened"
+msgid "opened"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:38
+msgctxt "Dynamic segment creation: when newsletter was not opened"
+msgid "not opened"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:39
+msgctxt "Dynamic segment creation: when a newsletter link was clicked"
+msgid "clicked"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:40
+msgctxt "Dynamic segment creation: when a newsletter link was not clicked"
+msgid "not clicked"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:42
+msgctxt "A note about dynamic segments usage"
+msgid "Tip"
+msgstr ""
+
+#: views/dynamicSegmentsTranslations.html:62
+msgctxt "Dynamic segment creation: User selects this to use any woocommerce filters"
+msgid "Woocommerce"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:15
+msgctxt "Percentage of subscribers that opened a newsletter link"
+msgid "opened"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:16
+msgctxt "Percentage of subscribers that clicked a newsletter link"
+msgid "clicked"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:17
+msgctxt "Percentage of subscribers that unsubscribed from a newsletter"
+msgid "unsubscribed"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:30
+msgctxt "Subscriber engagement status - subscriber opened a newsletter"
+msgid "Opened"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:31
+msgctxt "Subscriber engagement status - subscriber clicked a newsletter link"
+msgid "Clicked"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:32
+msgctxt "Subscriber engagement status - subscriber unsubscribed from a newsletter"
+msgid "Unsubscribed"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:33
+msgctxt "Subscriber engagement status - subscriber did not open a newsletter"
+msgid "Unopened"
+msgstr ""
+
+#: views/newsletters/campaign_stats.html:34
+msgctxt "Button label on Subscriber engagement page"
+msgid "Create Segment"
+msgstr ""
